@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap');
+
+body{
+    font-family: Manrope;
+    margin: 0px;
+    padding: 0px;
+}
+
+.rouge{
+    color: #FF675F;
+}
+
+.backrouge{
+    background-color: #FF675F;
+}
+
+
+.blanc {
+    color: white;
+}
+
+.gris{
+    color: #F3F3F3;
+}
+
+.grisdark{
+    color: #5E5E5E;  
+}
+
+.backgris{
+    background-color: #F3F3F3;
+}
+
+.px14{
+    font-size: 14px;
+}
+
+.px16{
+    font-size: 16px;
+}
+
+.px18{
+    font-size: 18px;
+}
+
+.px20{
+    font-size: 20px;
+}
+
+hr{
+    border: 1px solid #c0bfbf;
+}
+
+.boiteSuiviHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boiteSuiviDetails{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boiteSuiviDetailsHeure{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.boiteSuviDetailsBarres{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barre{
+    height: 5px;
+    width: 60px;
+}
+
+.boiteSuiviDetailsInfos{
+    display: flex;
+    flex-direction: column;
+}
+
+.boiteSuiviInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boiteSuiviLivreur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boiteSuiviOrderResumeResto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boiteSuiviRestoOrderResumeRestoName{
+    display: flex;
+    flex-direction: column;
+}
+
+.boiteSuiviOrderResumeArticle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boiteSuiviOrderResumePrix{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boiteSuiviOrderResumeTotauxSousTotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boiteSuiviOrderResumeTotauxTotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boiteJustificatif{
+    background-color: #FF675F;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}

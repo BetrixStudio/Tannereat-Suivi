@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivi de commande</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="boiteSuivi">
+
+        <!-- Header -->
+        <div class="boiteSuiviHeader m-3">
+            <img src="img/material-symbols_arrow-right-alt-rounded.png" alt="">
+            <img src="img/material-symbols_phone-forwarded-outline-sharp.png" alt="">
+        </div>
+
+        <!-- Boite du suivi étape par étape -->
+        <div class="boiteSuiviDetails m-4 mt-5">
+            <div class="boiteSuiviDetailsHeure">
+                <span class="px20 fw-bold">12h19</span>
+                <span>Heure d'arrivée estimée</span>
+            </div>
+            <div class="boiteSuviDetailsBarres">
+                <div class="barre backrouge"></div><div class="barre backrouge"></div><div class="barre backgris"></div><div class="barre backgris"></div><div class="barre backgris"></div>
+            </div>
+            <div class="boiteSuiviDetailsInfos">
+                <span class="grisdark">Préparation en cours</span>
+                <span class="rouge">Récupération de la commande</span>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Boite infos localisation -->
+        <div class="boiteSuiviInfo m-4">
+            <div class="me-3"><img src="img/material-symbols_location-on-outline-rounded.png" alt=""></div>
+            <span>Votre commande va vous être livrée devant le bâtiment de la tannerie, merci de vous y présenter lorsque le livreur arrivera.</span>
+        </div>
+
+        <hr>
+        <!-- Boite avancement livreur -->
+        <div class="boiteSuiviLivreur m-4">
+            <span class="px18 fw-semibold">Dylan est en route...</span>
+            <img src="img/livreur.png" alt="">
+        </div>
+
+        <hr>
+        <!-- Résumé de la commande -->
+        <div class="boiteSuiviOrderResume m-4">
+            <span class="px20 fw-bold">Résumé de la commande</span>
+            <div class="boiteSuiviOrderResumeResto mt-3">
+                <img src="img/resto.png" alt="">
+                <div class="boiteSuiviRestoOrderResumeRestoName mx-3">
+                    <span class="px18">Chez papi&mamie</span>
+                    <span class="px14">Commande #0234</span>
+                </div>
+            </div>
+            <div class="boiteSuiviOrderResumeArticles mt-3">
+                <div class="boiteSuiviOrderResumeArticle">
+                    <div class="boiteSuiviOrderResumeArticleNbr">
+                        <span class="rouge fw-semibold me-3">2x</span>
+                        <span class="fw-semibold">Le boudin de Papi</span>
+                    </div>
+                    <span>15,50 €</span>
+                </div>
+                <div class="boiteSuiviOrderResumeArticle">
+                    <div class="boiteSuiviOrderResumeArticleNbr">
+                        <span class="rouge fw-semibold me-3">1x</span>
+                        <span class="fw-semibold">La compote de Danielle</span>
+                    </div>
+                    <span>15,50 €</span>
+                </div>
+                <div class="boiteSuiviOrderResumeArticle">
+                    <div class="boiteSuiviOrderResumeArticleNbr">
+                        <span class="rouge fw-semibold me-3">2x</span>
+                        <span class="fw-semibold">Lasagne de Mamie</span>
+                    </div>
+                    <span>18,50 €</span>
+                </div>
+                <div class="boiteSuiviOrderResumeArticle">
+                    <div class="boiteSuiviOrderResumeArticleNbr">
+                        <span class="rouge fw-semibold me-3">2x</span>
+                        <span class="fw-semibold">Sandwich Parisien</span>
+                    </div>
+                    <span>15,50 €</span>
+                </div>
+                <div class="boiteSuiviOrderResumeArticle">
+                    <div class="boiteSuiviOrderResumeArticleNbr">
+                        <span class="rouge fw-semibold me-3">3x</span>
+                        <span class="fw-semibold">Tarte myrtille</span>
+                    </div>
+                    <span>10,50 €</span>
+                </div>
+            </div>
+            <hr>
+            <div class="boiteSuiviOrderResumePrix my-3">
+                <div class="boiteSuiviOrderResumeTotauxSousTotaux">
+                    <div class="boiteSuiviOrderResumeTotauxSousTotal">
+                        <span>Sous-total</span>
+                        <span>75,5 €</span>
+                    </div>
+                    <div class="boiteSuiviOrderResumeTotauxSousTotal">
+                        <span>Frais</span>
+                        <span>3,99 €</span>
+                    </div>
+                    <div class="boiteSuiviOrderResumeTotauxSousTotal">
+                        <span>Livraison</span>
+                        <span>5,20 €</span>
+                    </div>
+                </div>
+                <div class="boiteSuiviOrderResumeTotauxTotal">
+                    <span class="fw-bold">Total</span>
+                    <span class="fw-bold">84,69 €</span>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Moyen de paiement -->
+        <div class="boiteSuiviOrderResumePaiement m-4">
+            <span class="px20 fw-bold">Moyen de paiement</span>
+            <div class="boiteSuiviOrderResumePaiementCard mt-2">
+                <img src="img/la_cc-visa.png" alt="">
+                <span class="ms-2">**** 1634</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bouton pour télécharger un justificatif -->
+    <div class="container boiteJustificatif">
+        <span class="px20 blanc fw-bold">Télécharger un justificatif</span>
+    </div>
+</body>
+</html>
